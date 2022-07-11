@@ -97,7 +97,21 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <header>
+        <div class="d-flex">
+            <img class="logo mx-3 my-2" src="img/Google_2015_logo.svg.png" alt="">
+            <div class="fs-4">Privacy & Termini</div>
+        </div>
+        
+        <nav>
+            <a class="navbar-brand mx-3" href="#">Introduzione</a>
+            <a class="navbar-brand mx-3" href="#">Norme sulla privacy</a>
+            <a class="navbar-brand mx-3" href="#">Termini di servizio</a>
+            <a class="navbar-brand mx-3" href="#">Tecnologie</a>
+            <a class="navbar-brand mx-3" href="#">Domande frequenti</a>
+        </nav>
+        <hr>
+    </header>
     <div class="container">
         <?php 
             foreach ($textList as $title) {
@@ -126,6 +140,10 @@
 </html>
 
 <style>
+    .logo {
+        width: 100px;
+        margin-right: 30px;
+    }
     .lower-latin {
         list-style-type: lower-latin;
     }
