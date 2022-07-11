@@ -122,11 +122,11 @@
             <section>
                 <?php
                     foreach ($title as $i => $title) :
-                        echo "$title";
+                        echo "$title"." <br>";
                     endforeach;
 
                     foreach ($pharagraph as $i => $pharagraph) :
-                        echo "$pharagraph";
+                        echo "$pharagraph" . "<br>" ;
                     endforeach;
                     
                 ?>
