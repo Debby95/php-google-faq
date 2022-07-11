@@ -107,13 +107,13 @@
 
             <section>
                 <?php
-                    foreach ($title as $i => $title) {
+                    foreach ($title as $i => $title) :
                         echo "$title";
-                    }
+                    endforeach;
 
-                    foreach ($pharagraph as $i => $pharagraph) {
+                    foreach ($pharagraph as $i => $pharagraph) :
                         echo "$pharagraph";
-                    }
+                    endforeach;
                     
                 ?>
             </section>
@@ -132,4 +132,6 @@
         background-color: lightgray;
         height: 30px;
     }
+
+
 </style>
