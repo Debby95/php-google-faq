@@ -108,7 +108,9 @@
             <a class="navbar-brand mx-3" href="#">Norme sulla privacy</a>
             <a class="navbar-brand mx-3" href="#">Termini di servizio</a>
             <a class="navbar-brand mx-3" href="#">Tecnologie</a>
-            <a class="navbar-brand mx-3" href="#">Domande frequenti</a>
+            <a class="navbar-brand mx-3 text-primary" href="#">Domande frequenti</a>
+            
+
         </nav>
         <hr>
     </header>
